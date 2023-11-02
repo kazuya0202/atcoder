@@ -1,6 +1,13 @@
 # AtCoder
 
-## Tools
+## Links
+
+- [AtCoder](https://atcoder.jp/home)
+- [AtCoder Problems / ichiya_x](https://kenkoooo.com/atcoder/#/table/ichiya_x)
+
+## Usage
+
+### Requirements
 
 - atcoder-tools
 - online-judge-tools
@@ -9,13 +16,19 @@
 pip install atcoder-tools online-judge-tools
 ```
 
-## Usage
-
-### Download all problems
+### Download problems
 
 ```shell
-sh download_problem.sh <CONTEST_ID>
+sh tools/download_problem.sh <CONTEST_ID>
 # e.g. sh download_problem.sh abc326
+```
+
+### Download problems sequentially
+
+- before executing below command, edit variables (`start`, `end`) in `tools/seq_download_problem.py`
+
+```shell
+python tools/seq_download_problems.py
 ```
 
 ### Write a program
@@ -28,7 +41,7 @@ CONTEST_ID/<PROBLEM_LEVEL>/main.py
 ### Test
 
 ```shell
-sh test_problem.sh <FILE_PATH>
+sh tools/test_problem.sh <FILE_PATH>
 # e.g. sh test_problem.sh abc326/A/main.py
 ```
 
