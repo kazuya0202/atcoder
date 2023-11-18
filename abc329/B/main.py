@@ -1,8 +1,9 @@
 def main():
-    # n = int(input())
-    # n, m = map(int, input().split())
-    # list_ = list(map(int, input().split()))
-    pass
+    n = int(input())
+    a_list = list(map(int, input().split()))
+
+    values = sorted(set(a_list))
+    print(values[-2])
 
 
 if __name__ == "__main__":
