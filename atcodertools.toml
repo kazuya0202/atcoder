@@ -1,0 +1,11 @@
+[codestyle]
+lang="python"
+workspace_dir="/Users/kzy/ghq/github.com/kazuya0202/atcoder"
+template_file="/Users/kzy/ghq/github.com/kazuya0202/atcoder/_template.py"
+
+[etc]
+in_example_format="test/sample-{}.in"
+out_example_format="test/sample-{}.out"
+
+[submit]
+submit_filename="main.py"
