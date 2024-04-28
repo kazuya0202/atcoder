@@ -34,7 +34,7 @@ oj login https://atcoder.jp
 Copy `atcodertools.toml` in current directory to `~/.atcodertools.toml`.
 
 ```shell
-cp atocodertools.toml ~/.atcodertools.toml
+cp atcodertools.toml ~/.atcodertools.toml
 ```
 
 ## Configure keybinding
