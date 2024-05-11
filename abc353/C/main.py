@@ -8,10 +8,7 @@ def main():
     sum_ = 0
     for a, b in itertools.combinations(list_, 2):
         x = a + b
-        if x >= 1e8:
-            sum_ += int(x % 1e8)
-        else:
-            sum_ += x
+        sum_ += int(x % 1e8)
 
     print(sum_)
 
