@@ -1,4 +1,6 @@
 function execute_test() {
+    . .venv/bin/activate
+
     # ${workspaceFolder} == /Users/kzy/ghq/github.com/kazuya0202/atcoder
     local workspaceFolder=$1
 
