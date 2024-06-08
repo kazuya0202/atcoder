@@ -1,7 +1,7 @@
 [codestyle]
 lang="python"
-workspace_dir="/Users/kzy/ghq/github.com/kazuya0202/atcoder"
-template_file="/Users/kzy/ghq/github.com/kazuya0202/atcoder/_template.py"
+workspace_dir="/Users/kzy/src/github.com/kazuya0202/atcoder"
+template_file="/Users/kzy/src/github.com/kazuya0202/atcoder/_template.py"
 
 [etc]
 in_example_format="test/sample-{}.in"
