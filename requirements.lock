@@ -57,6 +57,8 @@ requests==2.32.3
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
+setuptools==71.1.0
+    # via atcoder
 soupsieve==2.5
     # via beautifulsoup4
 toml==0.10.2
