@@ -1,3 +1,0 @@
-atcoder-tools
-online-judge-tools
-markupsafe==2.0.1
