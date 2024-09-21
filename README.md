@@ -6,15 +6,22 @@
 - [AtCoder Problems / ichiya_x](https://kenkoooo.com/atcoder/#/table/ichiya_x)
 - [Notion log](https://www.notion.so/ichiya/20f67a5994874c24bd177793e1b93931?pvs=4) - more details about settings
 
-# Settings
+# Setup
 
 ## Requirements
 
-- atcoder-tools
-- online-judge-tools
+- [uv](https://github.com/astral-sh/uv)
+
+## Install and activate venv
 
 ```shell
-pip install atcoder-tools online-judge-tools
+uv sync
+```
+
+If you haven't activated venv, execute below:
+
+```shell
+source venv/bin/activate
 ```
 
 ## Login
