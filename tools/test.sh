@@ -1,6 +1,4 @@
 function execute_test() {
-    . .venv/bin/activate
-
     # ${workspaceFolder} == /Users/kzy/ghq/github.com/kazuya0202/atcoder
     local workspaceFolder=$1
 
@@ -9,6 +7,9 @@ function execute_test() {
 
     # ${fileBasename} == main.py
     local fileBasename=$3
+
+    # . ${workspaceFolder}/.venv/bin/activate
+    uv shell
 
     cd ${fileDirname}
     oj test \
