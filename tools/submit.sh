@@ -8,6 +8,8 @@ function execute_submit() {
     # ${fileBasename} == main.py
     local fileBasename=$3
 
+    . ${workspaceFolder}/.venv/bin/activate
+
     local _ATCODER_URL=$(python ${workspaceFolder}/tools/_get_url.py ${fileDirname})
 
     cd ${fileDirname}
