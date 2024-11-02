@@ -1,15 +1,10 @@
 function execute_test() {
-    # ${workspaceFolder} == /Users/kzy/ghq/github.com/kazuya0202/atcoder
-    local workspaceFolder=$1
+    local workspaceFolder=$1  # /path/to/atcoder
+    local fileDirname=$2  # /path/to/atcoder/<ContestName>/<Level>  [e.g. /path/to/atcoder/abc001/a]
+    local fileBasename=$3  # <FileName> [e.g. main.py]
 
-    # ${fileDirname} == /Users/kzy/ghq/github.com/kazuya0202/atcoder/abc323/<Problem>
-    local fileDirname=$2
-
-    # ${fileBasename} == main.py
-    local fileBasename=$3
-
-    # . ${workspaceFolder}/.venv/bin/activate
-    uv shell
+    # activate virtualenv
+    . ${workspaceFolder}/.venv/bin/activate
 
     cd ${fileDirname}
     oj test \
