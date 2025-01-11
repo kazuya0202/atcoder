@@ -12,7 +12,8 @@
                 "focus": false,
                 "panel": "shared",
                 "clear": true,
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "AtCoder_Submit",
@@ -23,7 +24,8 @@
                 "focus": false,
                 "panel": "shared",
                 "clear": true,
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
